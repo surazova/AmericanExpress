@@ -8,3 +8,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
+footer {
+  background-color: light-grey;
+}
