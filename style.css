@@ -1,6 +1,7 @@
 body {
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 270px;
+  padding-right: 270px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .searchbars {
@@ -9,6 +10,13 @@ body {
   text-align: center;
 }
 
-footer {
-  background-color: light-grey;
+#footer {
+  background-color: grey;
+  padding: 0 15%;
+  font-family: BentonSansBook;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1;
+  color: #4d4f53;
+  margin-bottom: 80px;
 }
