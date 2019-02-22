@@ -22,49 +22,56 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
+
+
+
+
+
+
 <body>
 
   <!--NavBar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img src="amexpresslogo2.jpg" height="45px">
-      <ul class="navbar-nav mr-auto">
+  <nav class="navbar navbar-expand-lg">
+    <a href="https://careers.americanexpress.com/" target="_blank">
+    <img src="amexpresslogo2.jpg" height="45px"></a>
+      <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link" href="#">Life at American Express</a>
+          <a class="nav-link disabled" href="https://careers.americanexpress.com/Life" target="_blank">Life at American Express</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Our Company</a>
+          <a class="nav-link disabled" href="https://careers.americanexpress.com/OurCompany" target="_blank">Our Company</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Professionals</a>
+          <a class="nav-link disabled" href="https://jobs.americanexpress.com/careers" target="_blank">Professionals</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Students</a>
+          <a class="nav-link disabled" href="https://careers.americanexpress.com/Students" target="_blank">Students</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Talent Community</a>
+          <a class="nav-link disabled" href="https://careers.americanexpress.com/Talent" target="_blank">Talent Community</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link disabled" href="https://careers.americanexpress.com/Events" target="_blank">Events</a>
         </li>
       </ul>
 <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+    <button is="dropdown" class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
       aria-haspopup="true" aria-expanded="false">
     Featured Locations
 </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Australia</a>
-    <a class="dropdown-item" href="#">Canada</a>
-    <a class="dropdown-item" href="#">France</a>
-    <a class="dropdown-item" href="#">Germany</a>
-    <a class="dropdown-item" href="#">Hong Kong</a>
-    <a class="dropdown-item" href="#">India</a>
-    <a class="dropdown-item" href="#">Japan</a>
-    <a class="dropdown-item" href="#">Malaysia</a>
-    <a class="dropdown-item" href="#">Mexico</a>
-    <a class="dropdown-item" href="#">Phillipenes</a>
-    <a class="dropdown-item" href="#">United Kingdom</a>
-    <a class="dropdown-item" href="#">United States</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/australia?lang=en-US" target="_blank">Australia</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/canada?lang=en-US" target="_blank">Canada</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/france?lang=fr-FR" target="_blank">France</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/germany?lang=de-DE" target="_blank">Germany</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/hong+kong?lang=en-US" target="_blank">Hong Kong</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/india?lang=en-US" target="_blank">India</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/japan?lang=ja-JP" target="_blank">Japan</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/malaysia?lang=en-US" target="_blank">Malaysia</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/mexico?lang=es-ES" target="_blank">Mexico</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/philippines?lang=en-US" target="_blank">Phillipenes</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/uk?lang=en-US" target="_blank">United Kingdom</a>
+    <a class="dropdown-item" href="https://jobs.americanexpress.com/us?lang=en-US" target="_blank">United States</a>
   </div>
   </div>
   </nav>
@@ -104,7 +111,9 @@
 <!--Talent Image-->
 <img src="talentimage.jpg" style="width:100%;">
 
-<div class="Hero__button">
+
+<!--TODO: Fix the text over the images-->
+<div class="row">
   <a href="http://adtrk.tw/tp/rj6.il0s.y.K" target="_blank" style="color:white">
 
     Join our Professional Talent Community
@@ -112,7 +121,7 @@
 </div>
 
 
-<div class="Hero__button_Right">
+<div class="row">
   <a href="http://adtrk.tw/tp/rj6-gdQf-y-K" target="_blank" style="color:white">
 
     Join our Student Talent Community
@@ -125,6 +134,8 @@
 <!--TODO: Add line break styling-->
 
 
+
+<!--TODO: The carousel pictures need to be clickalbe and directed to the correct site-->
 <!--Careers Carousel Start-->
 
 <div id="gallery" class="carousel slide" data-ride="carousel">

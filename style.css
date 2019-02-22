@@ -4,6 +4,25 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+nav {
+  color: white;
+  background-color: white;
+  line-height: 50px;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border: 0;
+  padding: 0;
+}
+
+#dropdown {
+  background-color: rgb(186, 186, 186);
+  justify-content: right;
+  color: red;
+}
+
 .searchbars {
   display: block;
   margin: 0 auto;
