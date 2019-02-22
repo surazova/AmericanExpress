@@ -10,17 +10,20 @@ nav {
   line-height: 50px;
   font-size: 12px;
   text-align: center;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  border: 0;
-  padding: 0;
+  width: 100%;
+}
+nav ul li {
+  text-align: center;
 }
 
+nav button {
+  justify-content: right;
+}
 #dropdown {
   background-color: rgb(186, 186, 186);
-  justify-content: right;
+  justify-content: right !important;
   color: red;
+  width: 100%;
 }
 
 .searchbars {
