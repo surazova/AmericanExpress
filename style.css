@@ -2,6 +2,7 @@ body {
   padding-left: 270px;
   padding-right: 270px;
   font-family: "Open Sans", sans-serif;
+  width: 100%;
 }
 
 nav {
@@ -19,11 +20,9 @@ nav ul li {
 nav button {
   justify-content: right;
 }
-#dropdown {
-  background-color: rgb(186, 186, 186);
+.dropdown {
   justify-content: right !important;
-  color: red;
-  width: 100%;
+  padding-left: 105px;
 }
 
 .searchbars {
@@ -41,4 +40,5 @@ nav button {
   line-height: 1;
   color: #4d4f53;
   margin-bottom: 80px;
+  position: fixed;
 }
